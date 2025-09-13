@@ -1,0 +1,53 @@
+{
+  "expo": {
+    "name": "Vaani",
+    "slug": "app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "assets/images/vaani_logo.png",
+    "scheme": "app",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true,
+      "package": "com.kushalsharmaexpo.app",
+      "versionCode": 1
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "assets/images/favicon.jpg"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/vaani_logo.jpg",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#ffffff"
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "updates": {
+      "enabled": false
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "21ecc1b4-4c2c-4388-86a0-4a84542ba3d2"
+      }
+    }
+  }
+}
